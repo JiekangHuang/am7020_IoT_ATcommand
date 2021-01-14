@@ -27,7 +27,7 @@ void nbConnect(void)
 Check NBIOT connection status:
 ```C++
 if (!nb.chkNet()) {
-nbConnect();
+    nbConnect();
 }
 ```
 ## MQTT(S)
